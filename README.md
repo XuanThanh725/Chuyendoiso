@@ -99,45 +99,7 @@ python app.py
 </p>
 
 ---
-
-## 📈 5. Đoạn code Flask chính (app.py)
-
-```python
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/gioi-thieu')
-def about():
-    return render_template('about.html')
-
-@app.route('/san-pham')
-def products():
-    return render_template('products.html')
-
-@app.route('/tin-tuc')
-def news():
-    return render_template('news.html')
-
-@app.route('/bctc')
-def financial():
-    return render_template('financial.html')
-
-@app.route('/bi')
-def dashboard():
-    return render_template('bi.html')
-
-if __name__ == '__main__':
-    app.run(debug=True)
-```
-
----
-
-## 🧮 6. Tính năng chính
+## 🧮 5. Tính năng chính
 - Hiển thị **chuỗi giá trị luyện thép khép kín**  
 - Cập nhật **tin tức Hòa Phát mới nhất**  
 - Trình bày **báo cáo tài chính 5 năm** (2019–2023)  
@@ -146,18 +108,3 @@ if __name__ == '__main__':
 
 ---
 
-## 🎓 7. Thông tin dự án
-**Trường**: Đại Học Đại Nam  
-**Khoa**: Công Nghệ Thông Tin  
-**Môn học**: Phân Tích Dữ Liệu & Business Intelligence  
-**Giảng viên hướng dẫn**: *[Điền tên giảng viên]*  
-**Sinh viên thực hiện**: *Đỗ Huy Dũng*  
-
----
-
-## 📬 8. Liên hệ
-📧 **Email:** dohuydung24@gmail.com  
-📞 **SDT:** 0356484203  
-🏫 **Website khoa CNTT:** [https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)  
-
-© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
