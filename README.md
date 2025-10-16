@@ -84,14 +84,15 @@ python app.py
 
 ## 💡 4. Giao diện và Dashboard
 <p align="center">
-  <img src="1.png" alt="Trang chủ Hòa Phát" width="800"/>
-  <em>Trang chủ giới thiệu Hòa Phát – nền tảng công nghiệp Việt Nam</em>
+  <img src="picture/1.png" alt="Trang chủ Hòa Phát" width="800"/>
+  <em>Hình 1: Trang chủ website Hòa Phát</em>
 </p>
 
 <p align="center">
-  <img src="picture/bi_dashboard.png" alt="Dashboard BI" width="800"/>
-  <em>Dashboard Power BI hiển thị doanh thu, lợi nhuận và cơ cấu tài sản</em>
+  <img src="picture/2.png" alt="Trang giới thiệu" width="800"/>
+  <em>Hình 2: Trang giới thiệu tầm nhìn và sứ mệnh</em>
 </p>
+
 
 <p align="center">
   <img src="picture/bctc.png" alt="Báo cáo tài chính" width="800"/>
