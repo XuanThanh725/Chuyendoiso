@@ -84,7 +84,7 @@ python app.py
 
 ## 💡 4. Giao diện và Dashboard
 <p align="center">
-  <img src="/anh/1.png" alt="Trang chủ Hòa Phát" width="800"/>
+  <img src="1.png" alt="Trang chủ Hòa Phát" width="800"/>
   <em>Trang chủ giới thiệu Hòa Phát – nền tảng công nghiệp Việt Nam</em>
 </p>
 
