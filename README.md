@@ -143,5 +143,19 @@ python app.py
 - Phân tích **chỉ số ROA, ROE, EPS, D/E, biên lợi nhuận**  
 - Dashboard Power BI giúp **theo dõi dữ liệu theo thời gian thực**
 
----
+--
+## 6. Thông tin liên hệ
+
+**Mọi Thắc Mắc Vui Lòng Liên Hệ Theo Thông Tin Bên Dưới Dưới**
+
+**Trường**: Đại Học Đại Nam
+
+**Tác Giả**: Dương Xuân Thành
+
+**Lớp**: CNTT 16-01
+
+**SDT**: 0973002568
+**EMAIL**: duongxuanthanh029@gmail.com
+    
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
 
