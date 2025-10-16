@@ -83,55 +83,56 @@ python app.py
 ---
 ## 💡 4. Giao diện và Dashboard
 
-<p align="center">
+<figure align="center">
   <img src="anh/1.png" width="800"/>
-  <em>Hình 1: Trang chủ Hòa Phát Group – nền tảng công nghiệp</em>
-</p>
+  <figcaption><em>Hình 1: Trang chủ Hòa Phát Group – nền tảng công nghiệp</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/2.png" width="800"/>
-  <em>Hình 2: Giới thiệu tầm nhìn & sứ mệnh, chuỗi giá trị luyện thép khép kín</em>
-</p>
+  <figcaption><em>Hình 2: Giới thiệu tầm nhìn & sứ mệnh, chuỗi giá trị luyện thép khép kín</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/3.png" width="800"/>
-  <em>Hình 3: Trang sản phẩm – Thép xây dựng, ống thép, tôn mạ</em>
-</p>
+  <figcaption><em>Hình 3: Trang sản phẩm – Thép xây dựng, ống thép, tôn mạ</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/4.png" width="800"/>
-  <em>Hình 4: Trang tin tức – Cập nhật hoạt động và công nghệ HPG</em>
-</p>
+  <figcaption><em>Hình 4: Trang tin tức – Cập nhật hoạt động và công nghệ HPG</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/5.png" width="800"/>
-  <em>Hình 5: Dashboard Power BI – Tổng quan hiệu quả kinh doanh (2019–2023)</em>
-</p>
+  <figcaption><em>Hình 5: Dashboard Power BI – Tổng quan hiệu quả kinh doanh (2019–2023)</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/6.png" width="800"/>
-  <em>Hình 6: Dashboard tài chính – Phân tích cơ cấu tài sản và lợi nhuận</em>
-</p>
+  <figcaption><em>Hình 6: Dashboard tài chính – Phân tích cơ cấu tài sản và lợi nhuận</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/7.png" width="800"/>
-  <em>Hình 7: Báo cáo tài chính – Kết quả kinh doanh 5 năm gần nhất</em>
-</p>
+  <figcaption><em>Hình 7: Báo cáo tài chính – Kết quả kinh doanh 5 năm gần nhất</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/8.png" width="800"/>
-  <em>Hình 8: Bảng cân đối kế toán – Tài sản, nợ và vốn chủ sở hữu</em>
-</p>
+  <figcaption><em>Hình 8: Bảng cân đối kế toán – Tài sản, nợ và vốn chủ sở hữu</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/9.png" width="800"/>
-  <em>Hình 9: Báo cáo lưu chuyển tiền tệ – Dòng tiền từ hoạt động kinh doanh</em>
-</p>
+  <figcaption><em>Hình 9: Báo cáo lưu chuyển tiền tệ – Dòng tiền từ hoạt động kinh doanh</em></figcaption>
+</figure>
 
-<p align="center">
+<figure align="center">
   <img src="anh/10.png" width="800"/>
-  <em>Hình 10: Trang tuyển dụng – Biểu mẫu ứng tuyển và gửi CV</em>
-</p>
+  <figcaption><em>Hình 10: Trang tuyển dụng – Biểu mẫu ứng tuyển và gửi CV</em></figcaption>
+</figure>
+
 
 
 ---
