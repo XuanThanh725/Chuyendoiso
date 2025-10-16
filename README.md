@@ -4,13 +4,13 @@
     </a>
 </h2>
 <h2 align="center">
-    CHAT ROOM DÙNG UDP MULTICAST
+    HỆ THỐNG PHÂN TÍCH TÀI CHÍNH HÒA PHÁT – WEB FLASK + POWER BI
 </h2>
 <div align="center">
     <p align="center">
-        <img alt="AIoTLab Logo" width="170" src="https://github.com/user-attachments/assets/711a2cd8-7eb4-4dae-9d90-12c0a0a208a2" />
-        <img alt="AIoTLab Logo" width="180" src="https://github.com/user-attachments/assets/dc2ef2b8-9a70-4cfa-9b4b-f6c2f25f1660" />
-        <img alt="DaiNam University Logo" width="200" src="https://github.com/user-attachments/assets/77fe0fd1-2e55-4032-be3c-b1a705a1b574" />
+        <img alt="Logo Hòa Phát" width="160" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hoaphat_logo.svg/800px-Hoaphat_logo.svg.png" />
+        <img alt="DaiNam University Logo" width="180" src="https://github.com/user-attachments/assets/77fe0fd1-2e55-4032-be3c-b1a705a1b574" />
+        <img alt="Python Flask Logo" width="160" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" />
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
@@ -18,3 +18,146 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
+
+---
+
+## 📖 1. Giới thiệu hệ thống
+Dự án **Phân tích tài chính Tập đoàn Hòa Phát (HPG)** được xây dựng nhằm đánh giá hiệu quả hoạt động kinh doanh giai đoạn **2019–2023**, thông qua các báo cáo:
+- Báo cáo kết quả kinh doanh  
+- Bảng cân đối kế toán  
+- Báo cáo lưu chuyển tiền tệ  
+
+Hệ thống gồm hai phần chính:
+- **Web Flask**: hiển thị giao diện doanh nghiệp, sản phẩm, tin tức, báo cáo tài chính và dashboard BI.
+- **Power BI Dashboard**: trình bày dữ liệu trực quan, phân tích xu hướng tài chính theo thời gian.
+
+Trang web giúp người dùng theo dõi **doanh thu, lợi nhuận, tài sản, nợ, ROA, ROE, dòng tiền**, hỗ trợ việc **phân tích dữ liệu và ra quyết định kinh doanh**.
+
+---
+
+## 🔧 2. Công nghệ sử dụng
+#### 💻 Ngôn ngữ & Framework:
+- **Python 3.11 + Flask** – xử lý backend và định tuyến trang  
+- **HTML5 / CSS3 / Bootstrap 5** – thiết kế giao diện hiện đại  
+- **JavaScript** – tạo tương tác động  
+- **Power BI Embedded** – tích hợp dashboard tài chính trực quan  
+- **Pandas / Numpy** – xử lý dữ liệu tài chính
+
+#### 💾 Cơ sở dữ liệu:
+- SQLite / PostgreSQL dùng để lưu trữ thông tin doanh nghiệp, báo cáo và sản phẩm.
+
+#### 📊 Dữ liệu tài chính:
+- Dữ liệu 5 năm (2019–2023) gồm doanh thu, lợi nhuận, EPS, tài sản, nợ phải trả, vốn chủ và lưu chuyển tiền tệ (CFO, CFI, CFF).
+
+---
+
+## 🚀 3. Cấu trúc & Cài đặt hệ thống
+#### Cấu trúc thư mục:
+```
+hoaphat_bi_flask/
+│
+├── app.py                 # File Flask chính
+├── requirements.txt       # Danh sách thư viện
+├── static/                # CSS, JS, hình ảnh
+├── templates/             # Giao diện HTML
+├── data/                  # File dữ liệu (CSV/JSON)
+└── venv/                  # Môi trường ảo
+```
+
+#### Cài đặt:
+1️⃣ **Tạo môi trường ảo và cài thư viện**
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+2️⃣ **Chạy web Flask**
+```bash
+python app.py
+```
+
+3️⃣ **Mở trình duyệt**:  
+👉 http://127.0.0.1:5000  
+
+---
+
+## 💡 4. Giao diện và Dashboard
+<p align="center">
+  <img src="picture/homepage.png" alt="Trang chủ Hòa Phát" width="800"/>
+  <em>Trang chủ giới thiệu Hòa Phát – nền tảng công nghiệp Việt Nam</em>
+</p>
+
+<p align="center">
+  <img src="picture/bi_dashboard.png" alt="Dashboard BI" width="800"/>
+  <em>Dashboard Power BI hiển thị doanh thu, lợi nhuận và cơ cấu tài sản</em>
+</p>
+
+<p align="center">
+  <img src="picture/bctc.png" alt="Báo cáo tài chính" width="800"/>
+  <em>Báo cáo kết quả kinh doanh, bảng cân đối kế toán và lưu chuyển tiền tệ</em>
+</p>
+
+---
+
+## 📈 5. Đoạn code Flask chính (app.py)
+
+```python
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/gioi-thieu')
+def about():
+    return render_template('about.html')
+
+@app.route('/san-pham')
+def products():
+    return render_template('products.html')
+
+@app.route('/tin-tuc')
+def news():
+    return render_template('news.html')
+
+@app.route('/bctc')
+def financial():
+    return render_template('financial.html')
+
+@app.route('/bi')
+def dashboard():
+    return render_template('bi.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+---
+
+## 🧮 6. Tính năng chính
+- Hiển thị **chuỗi giá trị luyện thép khép kín**  
+- Cập nhật **tin tức Hòa Phát mới nhất**  
+- Trình bày **báo cáo tài chính 5 năm** (2019–2023)  
+- Phân tích **chỉ số ROA, ROE, EPS, D/E, biên lợi nhuận**  
+- Dashboard Power BI giúp **theo dõi dữ liệu theo thời gian thực**
+
+---
+
+## 🎓 7. Thông tin dự án
+**Trường**: Đại Học Đại Nam  
+**Khoa**: Công Nghệ Thông Tin  
+**Môn học**: Phân Tích Dữ Liệu & Business Intelligence  
+**Giảng viên hướng dẫn**: *[Điền tên giảng viên]*  
+**Sinh viên thực hiện**: *Đỗ Huy Dũng*  
+
+---
+
+## 📬 8. Liên hệ
+📧 **Email:** dohuydung24@gmail.com  
+📞 **SDT:** 0356484203  
+🏫 **Website khoa CNTT:** [https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)  
+
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
