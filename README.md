@@ -81,22 +81,56 @@ python app.py
 👉 http://127.0.0.1:5000  
 
 ---
-
 ## 💡 4. Giao diện và Dashboard
+
 <p align="center">
-  <img src="picture/1.png" alt="Trang chủ Hòa Phát" width="800"/>
-  <em>Hình 1: Trang chủ website Hòa Phát</em>
+  <img src="1.png" width="800"/>
+  <em>Hình 1: Trang chủ Hòa Phát Group – nền tảng công nghiệp</em>
 </p>
 
 <p align="center">
-  <img src="picture/2.png" alt="Trang giới thiệu" width="800"/>
-  <em>Hình 2: Trang giới thiệu tầm nhìn và sứ mệnh</em>
+  <img src="2.png" width="800"/>
+  <em>Hình 2: Giới thiệu tầm nhìn & sứ mệnh, chuỗi giá trị luyện thép khép kín</em>
 </p>
 
+<p align="center">
+  <img src="3.png" width="800"/>
+  <em>Hình 3: Trang sản phẩm – Thép xây dựng, ống thép, tôn mạ</em>
+</p>
 
 <p align="center">
-  <img src="picture/bctc.png" alt="Báo cáo tài chính" width="800"/>
-  <em>Báo cáo kết quả kinh doanh, bảng cân đối kế toán và lưu chuyển tiền tệ</em>
+  <img src="4.png" width="800"/>
+  <em>Hình 4: Trang tin tức – Cập nhật hoạt động và công nghệ HPG</em>
+</p>
+
+<p align="center">
+  <img src="5.png" width="800"/>
+  <em>Hình 5: Dashboard Power BI – Tổng quan hiệu quả kinh doanh (2019–2023)</em>
+</p>
+
+<p align="center">
+  <img src="6.png" width="800"/>
+  <em>Hình 6: Dashboard tài chính – Phân tích cơ cấu tài sản và lợi nhuận</em>
+</p>
+
+<p align="center">
+  <img src="7.png" width="800"/>
+  <em>Hình 7: Báo cáo tài chính – Kết quả kinh doanh 5 năm gần nhất</em>
+</p>
+
+<p align="center">
+  <img src="8.png" width="800"/>
+  <em>Hình 8: Bảng cân đối kế toán – Tài sản, nợ và vốn chủ sở hữu</em>
+</p>
+
+<p align="center">
+  <img src="9.png" width="800"/>
+  <em>Hình 9: Báo cáo lưu chuyển tiền tệ – Dòng tiền từ hoạt động kinh doanh</em>
+</p>
+
+<p align="center">
+  <img src="10.png" width="800"/>
+  <em>Hình 10: Trang tuyển dụng – Biểu mẫu ứng tuyển và gửi CV</em>
 </p>
 
 ---
